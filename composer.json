@@ -1,0 +1,14 @@
+{
+    "name": "cuphalfempty/composer-package-test-one",
+    "description": "Composer package one",
+    "type": "library",
+    "version": "0.1.0",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CupHalfEmpty\\ComposerPackageTestOne\\": "src"
+        }
+    }
+}
